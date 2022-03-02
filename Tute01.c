@@ -4,9 +4,21 @@
 
 #include <stdio.h>
 
-int main() {
-  printf("Hello");
-  
-  return 0;
-}
+int main(void)
+{
+  int i,mark,sum=0;
+  float avg;
 
+  for(i=0;i<2;i++)
+    {
+      printf("enter mark  :");
+      scanf("%d",&mark);
+
+      sum+=mark;
+    }
+  avg=sum/2.0;
+  printf("average is :%.2f",avg);
+
+  return 0;
+  
+}
