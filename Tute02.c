@@ -32,7 +32,7 @@ int main(void)
   }
   else
   {
-    amount=(30*50)+(distance-30)*40;
+    amount=(30 * 50)+(distance-30) * 40;
   }
   printf("Amount of the paid :Rs %.2f",amount);
   return 0;

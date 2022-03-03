@@ -11,13 +11,13 @@ int main(void)
 
   for(i=0;i<2;i++)
     {
-      printf("enter mark  :");
+      printf("enter mark :");
       scanf("%d",&mark);
 
       sum+=mark;
     }
   avg=sum/2.0;
-  printf("average is :%.2f",avg);
+  printf("average is : %.2f",avg);
 
   return 0;
   
